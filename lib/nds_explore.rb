@@ -8,7 +8,7 @@ end
 
 def print_first_directors_movie_titles
   title_index=0 
-  while title_index < directors_database[0][0].length do
+  while title_index < directors_database[:names].length do
     pp directors_database[0][title_index]
     title_index+=1 
   end
