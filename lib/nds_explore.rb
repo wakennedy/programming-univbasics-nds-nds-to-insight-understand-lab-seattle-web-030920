@@ -13,3 +13,4 @@ def print_first_directors_movie_titles
     title_index+=1 
   end
 end
+puts directors_database[0][:movies][:title].length
